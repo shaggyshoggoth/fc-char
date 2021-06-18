@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////
-//       Author: Josh Thibodaux <>
-//    Copyright: Josh Thibodaux <>
+//       Author: Josh Thibodaux <josh@thibodaux.net>
+//    Copyright: Josh Thibodaux <josh@thibodaux.net>
 //
 //  Description: Finds fonts that support a given glyph.
 //

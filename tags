@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/josh/projects/fc-char/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AUTHOR	fc-char.1	/^.SH AUTHOR$/;"	s	title:FC-CHAR
+BDRWIDTH	fc-char.c	/^#define BDRWIDTH /;"	d	file:
+BUGS	fc-char.1	/^.SH BUGS$/;"	s	title:FC-CHAR
+DBG	fc-char.c	/^#define DBG(/;"	d	file:
+DBG_P	fc-char.c	/^#define DBG_P(/;"	d	file:
+DESCRIPTION	fc-char.1	/^.SH DESCRIPTION$/;"	s	title:FC-CHAR
+FC-CHAR	fc-char.1	/^.TH FC-CHAR 1 "04 Jun 2019" "1.0" "fc-char man page"$/;"	t
+FTNAMEFT	fc-char.c	/^#define FTNAMEFT /;"	d	file:
+FTSPACE	fc-char.c	/^#define FTSPACE /;"	d	file:
+HPADDING	fc-char.c	/^#define HPADDING /;"	d	file:
+INITFTSZ	fc-char.c	/^#define INITFTSZ /;"	d	file:
+NAME	fc-char.1	/^.SH NAME$/;"	s	title:FC-CHAR
+OPTIONS	fc-char.1	/^.SH OPTIONS$/;"	s	title:FC-CHAR
+SEE	fc-char.1	/^.SH SEE ALSO$/;"	s	title:FC-CHAR
+SYNOPSIS	fc-char.1	/^.SH SYNOPSIS$/;"	s	title:FC-CHAR
+TIMEOUT	fc-char.c	/^#define TIMEOUT /;"	d	file:
+TITLEFONT	fc-char.c	/^#define TITLEFONT /;"	d	file:
+TITLEFONTSZ	fc-char.c	/^#define TITLEFONTSZ /;"	d	file:
+VPADDING	fc-char.c	/^#define VPADDING /;"	d	file:
+XNextEventTimed	fc-char.c	/^int XNextEventTimed(Display *disp, XEvent *event_return, int timeout)$/;"	f	typeref:typename:int
+__anon2fa358aa0108	fc-char.c	/^struct {$/;"	s	file:
+__anon2fa358aa0208	fc-char.c	/^struct {$/;"	s	file:
+args	fc-char.c	/^} args = { 1, 0, 0, 0, 0, 0, 0 };$/;"	v	typeref:struct:__anon2fa358aa0108
+backbuf	fc-char.c	/^  Drawable backbuf; \/\/ Backing buffer if DBE enabled$/;"	m	struct:__anon2fa358aa0208	typeref:typename:Drawable	file:
+bin_PROGRAMS	Makefile.am	/^bin_PROGRAMS = fc-char$/;"	m
+black	fc-char.c	/^  XColor black;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:XColor	file:
+character	fc-char.c	/^  uint32_t character;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:uint32_t	file:
+check_quit_bounds	fc-char.c	/^int check_quit_bounds(int x, int y)$/;"	f	typeref:typename:int
+close_x11	fc-char.c	/^void close_x11()$/;"	f	typeref:typename:void
+convert_char	fc-char.c	/^int convert_char(char *input, char *output, int outsize, uint32_t *uchar)$/;"	f	typeref:typename:int
+debug	fc-char.c	/^  int debug;$/;"	m	struct:__anon2fa358aa0108	typeref:typename:int	file:
+dirty	fc-char.c	/^  int dirty;        \/\/ If window needs to be repainted.$/;"	m	struct:__anon2fa358aa0208	typeref:typename:int	file:
+display	fc-char.c	/^  int display;$/;"	m	struct:__anon2fa358aa0108	typeref:typename:int	file:
+dpy	fc-char.c	/^  Display *dpy;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:Display *	file:
+draw	fc-char.c	/^  Drawable draw;    \/\/ Drawable to draw to (window or back buffer)$/;"	m	struct:__anon2fa358aa0208	typeref:typename:Drawable	file:
+fc-char	Makefile.am	/^bin_PROGRAMS = fc-char$/;"	P	directory:bin
+fc-char	configure.ac	/^AC_INIT([fc-char], [1.0], [joshthibodaux@somewhere.org])$/;"	p
+fc-char.1	Makefile.am	/^man1_MANS = fc-char.1$/;"	M	directory:man1
+fc_char_CFLAGS	Makefile.am	/^fc_char_CFLAGS = @DEPS_CFLAGS@$/;"	m
+fc_char_LIBS	Makefile.am	/^fc_char_LIBS = @DEPS_LIBS@$/;"	m
+fc_char_SOURCES	Makefile.am	/^fc_char_SOURCES = fc-char.c$/;"	m
+fixed	fc-char.c	/^  int fixed;$/;"	m	struct:__anon2fa358aa0108	typeref:typename:int	file:
+fs	fc-char.c	/^  FcFontSet *fs;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:FcFontSet *	file:
+ftblack	fc-char.c	/^  XftColor ftblack;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:XftColor	file:
+gen_scale_title_font	fc-char.c	/^XftFont *gen_scale_title_font(const char *family, int width, int height)$/;"	f	typeref:typename:XftFont *
+generate_fontset	fc-char.c	/^int generate_fontset()$/;"	f	typeref:typename:int
+generate_grid	fc-char.c	/^int generate_grid(unsigned int width, unsigned int height, int yoffset, FcChar32 *character)$/;"	f	typeref:typename:int
+global	fc-char.c	/^} global;$/;"	v	typeref:struct:__anon2fa358aa0208
+hexchar	fc-char.c	/^  char hexchar[11];$/;"	m	struct:__anon2fa358aa0208	typeref:typename:char[11]	file:
+info	fc-char.c	/^  struct unicode_nameannot info;$/;"	m	struct:__anon2fa358aa0208	typeref:struct:unicode_nameannot	file:
+initialize_x11	fc-char.c	/^int initialize_x11()$/;"	f	typeref:typename:int
+lastpaint	fc-char.c	/^  double lastpaint; \/\/ Last time window was painted.$/;"	m	struct:__anon2fa358aa0208	typeref:typename:double	file:
+main	fc-char.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+man1_MANS	Makefile.am	/^man1_MANS = fc-char.1$/;"	m
+maxfonts	fc-char.c	/^  int maxfonts;$/;"	m	struct:__anon2fa358aa0108	typeref:typename:int	file:
+maybe_paint_window	fc-char.c	/^void maybe_paint_window()$/;"	f	typeref:typename:void
+paint_window	fc-char.c	/^void paint_window()$/;"	f	typeref:typename:void
+parse_arguments	fc-char.c	/^int parse_arguments(int argc, char *argv[])$/;"	f	typeref:typename:int
+parse_character	fc-char.c	/^int parse_character(char *cchar)$/;"	f	typeref:typename:int
+printfonts	fc-char.c	/^  int printfonts;$/;"	m	struct:__anon2fa358aa0108	typeref:typename:int	file:
+quitdims	fc-char.c	/^  int quitdims[4];$/;"	m	struct:__anon2fa358aa0208	typeref:typename:int[4]	file:
+showannot	fc-char.c	/^  int showannot;$/;"	m	struct:__anon2fa358aa0108	typeref:typename:int	file:
+showname	fc-char.c	/^  int showname;$/;"	m	struct:__anon2fa358aa0108	typeref:typename:int	file:
+white	fc-char.c	/^  XColor white;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:XColor	file:
+win	fc-char.c	/^  Drawable win;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:Drawable	file:
+xdraw	fc-char.c	/^  XftDraw *xdraw;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:XftDraw *	file:
+xgc	fc-char.c	/^  GC xgc;$/;"	m	struct:__anon2fa358aa0208	typeref:typename:GC	file:

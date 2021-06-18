@@ -1,0 +1,8 @@
+* Investigate fonts with no name or repeated names.
+* Refactor and cleanup code.
+* Fix draw issues (some things just don't show up)
+* Check if similar apps use localization.
+* Fix window flicker on resize.
+* Add backing store/double buffer?
+* Fix character centering.
+* Make multi-page so that too many characters don't cause a blank window

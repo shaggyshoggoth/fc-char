@@ -1,0 +1,39 @@
+.TH FC-CHAR 1 "04 Jun 2019" "1.0" "fc-char man page"
+.SH NAME
+fc-char \- search for fonts containing a specified character
+.SH SYNOPSIS
+\fBfc-char\fR [ options ] { character | hex code }
+.SH DESCRIPTION
+\fBfc-char\fR searches for fonts containing a particular character using fontconfig. The names of the fonts, the Unicode name for the character, and the Unicode annotation for the character can be printed. By default a grid is displayed showing the character from each font found.
+.SH OPTIONS
+\fB-a\fR, \fB--annotation\fR
+Print the Unicode annotation for the character.
+
+\fB-d\fR, \fB--debug\fR
+Print verbose debug information.
+
+\fB-f\fR, \fB--fixed\fR
+Include fixed size fonts. By default, fc-char only selects scalable fonts.
+
+\fB-h\fR, \fB--help\fR
+Print options.
+
+\fB-m\fR\fI#\fR, \fB--maxfonts\fR \fI#\fR
+Display/print no more than the given number of fonts.
+
+\fB-n\fR, \fB--name\fR
+Print the Unicode name of the character.
+
+\fB-N\fR, \fB--nodisplay\fR
+Do not display the character grid.
+
+\fB-p\fR, \fB--print\fR
+Print the font names.
+
+The character can be specified directly on the command line in the current encoding or as the hexadecimal value of the Unicode code point (e.g. 0x123f).
+.SH SEE ALSO
+\fBfc-match\fR(1) \fBfc-query\fR(1) \fBfc-list\fR(1)
+.SH BUGS
+Too many to list right now.
+.SH AUTHOR
+Josh Thibodaux (me@something.com)

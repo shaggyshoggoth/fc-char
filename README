@@ -1,0 +1,18 @@
+fc-char
+=======
+
+Search fontconfig for fonts containing a specified glyph.
+
+If you've ever wondered just what character is not being displayed correctly (missing or just plain ugly) and would like to determine what fonts on your system encode that character, this utility may be useful for you.
+
+Example:
+```$ fc-char -m10 ᣤ```
+
+![Screenshot](screenshot.png)
+
+Features:
+
+* Supply glyph on command line as encoded symbol or unicode hex code point.
+* Can print list of font names with the glyph defined.
+* Can preview one or more font's version of the glyph.
+* Can print Unicode code point and name for a glyph.

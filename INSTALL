@@ -1,0 +1,9 @@
+Building fc-char from git checkout:
+
+You'll need automake and autoconf.
+
+    $ autoreconf
+    $ automake --add-missing
+    $ ./configure
+    $ make
+    $ make install
